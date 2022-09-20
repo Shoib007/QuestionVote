@@ -1,0 +1,46 @@
+*::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.like_button{
+    background:url("./image/thumbsUp.png");
+    border:none;
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
+    background-size: contain;
+    transition: 500ms;
+
+}
+.like_button_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    color:black;
+}
+.like_button:hover{
+    background: url("./image/thumbsUpGreen.png");
+    border:none;
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
+    background-size: contain;
+}
+
+.addRowButton{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    align-items:center;
+    flex-wrap: wrap;
+    height: auto;
+}
